@@ -1,6 +1,6 @@
 # MCP Tools Reference
 
-Complete reference for all 40+ Served MCP tools.
+Complete reference for all 180+ Served MCP tools.
 
 ---
 
@@ -13,8 +13,15 @@ Complete reference for all 40+ Served MCP tools.
 | **Tasks** | GetTasks, CreateTask, UpdateTask, DeleteTask, CreateTasksBulk | [Task Tools](./tasks.md) |
 | **Time** | CreateTimeRegistration, GetTimeRegistrations, SuggestTimeEntries | [Time Tools](./time.md) |
 | **Intelligence** | AnalyzeProjectHealth, SuggestTaskDecomposition, EstimateEffort | [AI Tools](./intelligence.md) |
-| **DevOps** | GetRepositories, GetPullRequests, GetPipelineRuns | [DevOps Tools](./devops.md) |
-| **Customers** | GetCustomers, CreateCustomer, UpdateCustomer | [Customer Tools](./customers.md) |
+| **DevOps** | GetRepositories, GetPullRequests, GetPipelineRuns, GetJobLog | [DevOps Tools](./devops.md) |
+| **Customers** | GetCustomers, GetCustomerDetails, CreateCustomer | [Customer Tools](./customers.md) |
+| **Dashboards** | GetDashboards, CreateWidget, ExecuteDatasourceQuery | [Dashboard Tools](./dashboards.md) |
+| **Agents** | GetActiveAgents, CoordinateWithAgent, AtlasAsk | [Agent Tools](./agents.md) |
+| **Infrastructure** | GetClusterHealth, GetKubernetesHealth, GetInfrastructureResources | [Infrastructure Tools](./infrastructure.md) |
+| **Workflows** | GetWorkflows, ExecuteWorkflow, GetWorkflowRuns | Workflow Tools |
+| **Integrations** | GetConfiguredIntegrations, TestIntegrationConnection | Integration Tools |
+| **Files** | served_file_find, served_file_stats, served_file_tree | File Tools |
+| **Analytics** | GetToolUsageStats, GetTopCliCommands, GetAgentSessions | Analytics Tools |
 
 ---
 
