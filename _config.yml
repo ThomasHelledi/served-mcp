@@ -1,0 +1,45 @@
+title: Served MCP Documentation
+description: MCP Server for AI assistants to interact with Served and UnifiedHQ platforms
+url: https://unifiedhq.github.io/served-mcp
+baseurl: ""
+
+# Theme
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .github
+
+# Navigation
+nav:
+  - title: Getting Started
+    url: /docs/getting-started
+  - title: Configuration
+    url: /docs/configuration
+  - title: Tools Reference
+    url: /docs/tools/
+  - title: Examples
+    url: /docs/examples/common-workflows
+
+# Footer
+footer:
+  links:
+    - title: NuGet
+      url: https://www.nuget.org/packages/Served.MCP
+    - title: UnifiedHQ
+      url: https://unifiedhq.ai
+    - title: MCP Protocol
+      url: https://modelcontextprotocol.io
